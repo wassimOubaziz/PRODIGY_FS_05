@@ -1,0 +1,14 @@
+::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+
+/* Remove scrollbar styles for Firefox */
+* {
+  scrollbar-width: none; /* Hides the scrollbar */
+  scrollbar-color: transparent transparent; /* Makes the scrollbar invisible */
+}
+
+/* Remove scrollbar styles for Internet Explorer and Edge */
+.scrollable-element {
+  -ms-overflow-style: none; /* Hides the scrollbar */
+}
