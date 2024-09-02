@@ -1,21 +1,19 @@
 #### Social Media Application
-
 #### ========================
 
 ### Overview
-
 ### --------
 
 This application is a social media platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to create profiles, share posts, like and comment on others' posts, and more. The platform includes features such as image/video uploads, post tagging, and system notifications for new posts and tags.
 
 ### Optional Features
+### --------
 
 - **Follow System:** Users can follow each other.
 - **Notifications:** Users receive notifications for new interactions and tagged posts.
 - **Trending Content:** Explore trending posts and users.
 
 ### Features
-
 ### --------
 
 - **User Authentication:** Secure user registration and login.
@@ -27,15 +25,16 @@ This application is a social media platform built with the MERN stack (MongoDB, 
 - **Notifications:** Real-time notifications for new posts and interactions.
 
 ### Installation
-
 ### ------------
 
 ### Prerequisites
+### -------------
 
 - Node.js and npm installed.
 - MongoDB database setup (local or cloud).
 
 ### Frontend Setup
+### --------------
 
 1.  **Navigate to the client directory:**
 
@@ -49,13 +48,14 @@ This application is a social media platform built with the MERN stack (MongoDB, 
     npm install
     ```
 
-3.  **Start the client application:**
+4.  **Start the client application:**
 
     ```bash
     npm start
     ```
 
 ### Backend Setup
+### -------------
 
 1.  **Navigate to the server directory:**
 
@@ -86,6 +86,7 @@ This application is a social media platform built with the MERN stack (MongoDB, 
     ```
 
 ## API Documentation
+### ----------------
 
 ### User Routes
 
@@ -163,15 +164,16 @@ This application is a social media platform built with the MERN stack (MongoDB, 
   - Authenticates a user and provides a JWT token.
 
 ### Screenshots
-
 ### -----------
 
 ### Login Page
+### ----------
 
 ![Login Screen](screenshots/login-screenshot.png)
 _Description: The login screen where users can enter their credentials to access the application._
 
 ### Signup Page
+### -----------
 
 ![Signup Screen](screenshots/signup-screenshot.png)
 _Description: The signup screen where new users can create an account._
@@ -231,7 +233,7 @@ _Description: The bonus page showing comment content and users._
 
 1.  **Clone the repository:**
 
-````bash
+```bash
  git clone https://github.com/your-repo/social-media-app.git
  cd social-media-app
  ```
